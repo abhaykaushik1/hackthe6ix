@@ -4,7 +4,7 @@ import datetime
 class MongoDriver:
     
     def __init__(self):
-        self.client = MongoClient("mongodb+srv://Abhay123:LolHi123@hackathon.2gytm.mongodb.net/test")
+        self.client = MongoClient("")
         self.db = self.client['Assistant']
         self.children_col = self.db['children']
         self.administrators_col = self.db['administrators']
